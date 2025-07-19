@@ -1,0 +1,24 @@
+.app-footer {
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 16px 8px;
+  width: 100%;
+  z-index: 5;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-content p {
+  margin: 4px 0;
+}
+
+.footer-content a {
+  color: #6cf;
+  text-decoration: none;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}

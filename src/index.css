@@ -1,9 +1,12 @@
-html, body, #root {
+body, html, #root {
   height: 100%;
   margin: 0;
-  padding: 0;
+  font-family: Arial, sans-serif;
+   overflow-x: hidden; /* Chặn cuộn ngang */
 }
-map {
-  height: 100%;
-  width: 100%;
+body {
+  background: url('style/img/Background.webp') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }

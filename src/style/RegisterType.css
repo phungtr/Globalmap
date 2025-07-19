@@ -1,0 +1,56 @@
+.register-choice-wrapper {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dark-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 1;
+}
+.register-choice-container {
+  position: relative;
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 60px;
+  border-radius: 12px;
+  width: 1000px;
+  height: 600px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+.register-options {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.register-card {
+  cursor: pointer;
+  transition: transform 0.2s;
+  text-align: center;
+}
+
+.register-card:hover {
+  transform: scale(1.05);
+}
+.register-choice-container h2{
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+.register-card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.register-card p {
+  margin-top: 12px;
+  font-weight: 600;
+  font-size: 24px;
+}

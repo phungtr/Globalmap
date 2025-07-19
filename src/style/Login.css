@@ -1,0 +1,125 @@
+
+.login-wrapper {
+  display: flex;
+  height: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.login-left {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 40px;
+    color: white;
+    backdrop-filter: brightness(0.6);
+    border-radius: 20px;
+    height: 80%;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 40px ;
+    margin-bottom: 90px;
+}
+.intro-box h1 {
+  font-size: 84.3px;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+.intro-box p {
+  font-size: 30px;
+   line-height: 1.6;
+  margin-bottom: 45px;
+}
+.intro-box ul {
+  padding-left: 20px;
+  line-height: 1.8;
+}
+
+.intro-box ul li {
+  margin-bottom: 8px; 
+  font-size: 25px;
+}
+.login-container {
+  width: 40vw; 
+  height: 80%;
+  padding: 40px;
+  box-shadow: -6px 0 30px rgba(0,0,0,0.1);
+  background: white;
+  border-radius: 20px;
+  margin-right:40px ;
+  margin-bottom: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} 
+
+.login-container h2 {
+  margin-bottom: 60px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: left;
+  margin-bottom: 90px;
+}
+.login-form label{
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.input-group {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px;
+  background-color: #fafafa;
+}
+
+.input-group .icon {
+  margin-right: 10px;
+  font-size: 18px;
+  color: gray;
+}
+
+.input-group input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  outline: none;
+}
+
+.login-btn {
+  background: linear-gradient(to right, #00c853, #00e676);
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  background: linear-gradient(to right, #00b248, #00d265);
+}
+
+.login-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.login-links a {
+  color: #1a73e8;
+  text-decoration: none;
+}

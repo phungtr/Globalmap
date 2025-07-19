@@ -42,7 +42,7 @@ const MapView = ({ start, end }) => {
     }, [start, end]);
 
 
-  return <div id="map" style={{ height: "900Px", width: "100%" }}></div>;
+  return <div id="map" style={{ height: "100vh", width: "100%" }}></div>;
 };
 
 export default MapView;
